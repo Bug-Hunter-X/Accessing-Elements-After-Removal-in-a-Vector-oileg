@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: accessing an element in a vector after it has been removed using the remove() method.  The code will panic at runtime if you try to access an index that is out of bounds after removing elements. The solution shows how to check for the vector's emptiness using the is_empty() method before accessing elements.
